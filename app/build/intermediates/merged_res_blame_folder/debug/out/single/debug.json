@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.android.app-merged_res-28:/layout_activity_main.xml.flat",
+        "source": "com.example.android.app-main-30:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/manh/.gradle/daemon/8.13/com.example.android.app-merged_res-28:/layout_activity_main.xml.flat",
+        "source": "/home/manh/.gradle/daemon/8.13/com.example.android.app-main-30:/layout/activity_main.xml"
+    }
+]

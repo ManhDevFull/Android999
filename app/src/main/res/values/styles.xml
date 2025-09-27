@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Theme chính của app -->
+    <style name="Theme.android" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Tùy chỉnh màu sắc nếu muốn -->
+        <item name="colorPrimary">@android:color/holo_blue_light</item>
+        <item name="colorPrimaryDark">@android:color/holo_blue_dark</item>
+        <item name="colorAccent">@android:color/holo_red_light</item>
+    </style>
+
+</resources>

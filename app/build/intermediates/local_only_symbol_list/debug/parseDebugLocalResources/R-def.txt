@@ -1,0 +1,7 @@
+R_DEF: Internal format may change without notice
+local
+array branches
+id text_view
+layout activity_main
+string app_name
+style Theme.android
