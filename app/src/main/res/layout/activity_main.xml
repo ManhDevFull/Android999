@@ -1,42 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
-    tools:context=".MainActivity">
-
-    <EditText
-        android:id="@+id/numberInput"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Nhập một số nguyên"
-        android:inputType="number"
-        android:textColor="@color/black" />
-
-    <Button
-        android:id="@+id/btnCheck"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Kiểm tra số nguyên tố"
-        android:layout_marginTop="16dp" />
-
-    <Button
-        android:id="@+id/btnRefresh"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Refresh"
-        android:layout_marginTop="8dp" />
+    android:gravity="center"
+    android:background="@android:color/white">
 
     <TextView
-        android:id="@+id/result"
-        android:layout_width="match_parent"
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Kết quả sẽ hiển thị ở đây"
-        android:textSize="20sp"
-        android:textColor="#000000"
-        android:gravity="center"
-        android:layout_marginTop="24dp" />
+        android:text="Xin chào, Thành Mạnh !"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
 
 </LinearLayout>

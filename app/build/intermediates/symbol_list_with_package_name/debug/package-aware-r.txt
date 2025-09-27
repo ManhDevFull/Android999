@@ -3102,9 +3102,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id btnCheck
 id btnLogin
-id btnRefresh
 id btnRegister
 id buttonPanel
 id cache_measures
@@ -3328,7 +3326,6 @@ id north
 id notification_background
 id notification_main_column
 id notification_main_column_container
-id numberInput
 id off
 id on
 id onInterceptTouchReturnSwipe
@@ -3355,7 +3352,6 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
-id result
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3486,6 +3482,8 @@ id transition_transform
 id triangle
 id tvLogin
 id tvRegister
+id tvTitle
+id tvWelcome
 id unchecked
 id uniform
 id unlabeled

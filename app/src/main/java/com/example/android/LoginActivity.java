@@ -34,7 +34,7 @@ public class LoginActivity extends AppCompatActivity {
             String user = edtUsername.getText().toString();
             String pass = edtPassword.getText().toString();
 
-            String savedUser = sharedPreferences.getString("username", "");
+            String savedUser = sharedPreferences.getString("username", "a");
             String savedPass = sharedPreferences.getString("password", "");
 
             if (user.equals(savedUser) && pass.equals(savedPass)) {

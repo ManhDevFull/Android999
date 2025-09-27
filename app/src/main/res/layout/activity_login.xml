@@ -1,28 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:padding="16dp">
-
+<TextView android:text="Login"
+ android:textSize="25sp"      
+  android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+   android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!-- Ô nhập tên đăng nhập -->
     <EditText
+      android:layout_marginTop="60dp"
         android:id="@+id/edtUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Tên đăng nhập" />
 
+    <!-- Ô nhập mật khẩu (nằm dưới edtUsername) -->
     <EditText
         android:id="@+id/edtPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Mật khẩu"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:layout_below="@id/edtUsername"
+        android:layout_marginTop="12dp" />
 
+    <!-- Nút Đăng nhập (nằm dưới edtPassword) -->
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Đăng nhập" />
+        android:text="Đăng nhập"
+        android:layout_below="@id/edtPassword"
+        android:layout_marginTop="16dp" />
 
     <TextView
         android:id="@+id/tvRegister"
@@ -30,5 +42,8 @@
         android:layout_height="wrap_content"
         android:text="Chưa có tài khoản? Đăng ký"
         android:textColor="@android:color/holo_blue_dark"
-        android:paddingTop="16dp" />
-</LinearLayout>
+        android:layout_below="@id/btnLogin"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
