@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:hint="Nhập một số nguyên"
         android:inputType="number"
-        android:textColor="@color/text_color" />
+        android:textColor="@color/black" />
 
     <Button
         android:id="@+id/btnCheck"

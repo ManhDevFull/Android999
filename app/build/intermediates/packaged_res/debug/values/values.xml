@@ -5,7 +5,9 @@
         <item>ECE</item>
         <item>ME</item>
     </string-array>
+    <color name="black">#000000</color>
     <color name="text_color">#ff3300</color>
+    <color name="white">#FFFFFF</color>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <string name="action_settings">Settings</string>

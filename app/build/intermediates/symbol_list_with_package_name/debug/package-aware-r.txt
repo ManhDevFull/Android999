@@ -1337,6 +1337,7 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color black
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -2045,6 +2046,7 @@ color switch_thumb_normal_material_light
 color text_color
 color tooltip_background_dark
 color tooltip_background_light
+color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -3101,7 +3103,9 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnCheck
+id btnLogin
 id btnRefresh
+id btnRegister
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3176,6 +3180,10 @@ id easeOut
 id east
 id edge
 id edit_query
+id edtNewPass
+id edtNewUser
+id edtPassword
+id edtUsername
 id elastic
 id embed
 id end
@@ -3476,6 +3484,8 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvLogin
+id tvRegister
 id unchecked
 id uniform
 id unlabeled
@@ -3612,7 +3622,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_login
 layout activity_main
+layout activity_register
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
